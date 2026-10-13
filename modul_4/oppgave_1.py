@@ -16,7 +16,9 @@ print(f"Din høyde er {height}m!")
 # --- Refleksjon ---
 # Det som skjer når jeg bruker 'int()' på 'height' er at brukere ender
 # opp med å ofte skrive høyde i desimaltall basert på meter. Dette
-# forårsaker at variablen endrer 'type' til 'float'.
+# forårsaker en error som hindrer meg i å kjøre videre kode. Funksjonen
+# jeg må bruke i stedet er 'float()', for den forandrer datatypen til
+# 'float', som tillater bruken av desimaltall.
 
 # 'type()' svarte at 'alder' var en 'str', altså en 'string' før jeg
 # brukte 'int()' på den. 'input()' gir meg 'string' datatypen fordi
