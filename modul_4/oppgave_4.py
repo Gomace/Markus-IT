@@ -45,7 +45,7 @@ print(f"Din pris er: {pris} kr")
 
 # Nå har vi satt inn 2 motsatte 'boolean' verdier i 'print()' #4, og satt nøkkelordet 'and'
 # mellom variablene. Det tilsvarer at helheten blir til 'False', siden nøkkelordet 'and'
-# krever at begge sidene ender opp med samme 'boolean' verdi for å bli ansett som 'True'.
+# krever at begge sidene ender opp å være 'True' for at statementen skal bli ansett som 'True'.
 
 # 'print()' #5 blir 'True' fordi 'or' nøkkelordet krever bare at en av verdiene på sidene er
 # 'True'. Siden 'er_student' allerede er 'True', så er en av dem 'True', og dermed hele
@@ -72,7 +72,7 @@ print(f"Din pris er: {pris} kr")
 # ville en 'False' verdi, som (1 + 2 == 1) gitt resultatet 'True' hvis 'not' var skrevet
 # før statementen.
 # Det er et par måter å skrive steg 4 på uten 'not' nøkkelordet. En av dem hadde vært å
-# skrive 'if er_student != True:'. Denne sjekker tester om verdiene på hver side av
+# skrive 'if er_student != True:'. Denne sjekken tester om verdiene på hver side av
 # '!=' tegnet ikke matcher, og dermed gjør statementet 'True' hvis det er tilfellet.
 
 # Hvis en 70-åring er student så slår aldersregelen inn først, og overordnet styrer
