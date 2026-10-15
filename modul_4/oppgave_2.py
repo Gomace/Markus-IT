@@ -25,14 +25,14 @@ print("Takk for at du sjekket!")
 # Linjen fra steg 7 ble skrevet ut uansett fordi den stod utenfor kodeblokkene
 # som var begrenset til utfallene av 'if' statementene.
 
-# 'alder >= aldersgrense' git en 'boolean' verdi. Dette er en verdi som enten
+# 'alder >= aldersgrense' gir en 'boolean' verdi. Dette er en verdi som enten
 # er sann eller usann ('True' eller 'False'). 'if' statements bruker den
 # verdien ved å sjekke om den skal utføre en kodeblokk hvis utsagnet er
 # 'True', eller hoppe videre til neste, hvis det er noen flere, om det er
 # 'False'.
 
 # I utvidelsen er '>=' riktig for en aldersgrense på 18 år, fordi '=' tegnet
-# gjør at utsagnet inkluderer verdien den sammenligner med. I dette tilfellet
+# gjør at utsagnet inkluderer verdien den sammenligner med; i dette tilfellet
 # '>=' som er større eller lik. Siden aldersgrensen er 18, så vil vi inkludere
 # verdien av aldersgrensen i sjekken, så '>' hadde vært feil.
 # Dette er en lett feil å gjøre fordi en kan fort tenke på "over 18", og brukte
