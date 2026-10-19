@@ -26,17 +26,17 @@ else:
 # stedet så brukte jeg nested 'if' statements for å bygge koden med litt mere kontroll i tankene.
 # Det finnes flere måter å løse oppgaven på. Det hadde vært mulig å bruke 'not' i stedet for '!=',
 # og 'and' på repetisjon hvis jeg ikke hadde sjekket 'brukernavn == riktig_brukernavn' eller
-# 'alder < aldersgrense' på en egne 'if'-statements.
+# 'alder < aldersgrense' på egne 'if'-statements.
 
 # Sjekkene måtte stå i rekkefølge av:
 # 1. alder
 # 2. brukernavn
 # 3. passord
-# 4. Ukjen bruker
-# Grunnen til dette er at 'alder' skal hoppe rett til mangelen på tilgang. Brukernavnet skal diktere
-# om brukeren skal få en av to alternativ, eller om den skal til 'Ukjent bruker', og passord dikterer
-# om du har gjort en full success eller bommet. Hadde rekkefølgen blitt endret så måtte vi ha satt
-# inn mange flere sjekker for å få de samme utfallene, og da hadde vi repetert veldig mye kode.
+# 4. Ukjent bruker
+# Grunnen til dette er at 'alder' skal hoppe rett til mangelen på tilgang. 'brukernavn' skal diktere
+# om brukeren skal få en av to alternativ, eller om den skal til 'Ukjent bruker', og 'passord' dikterer
+# om du har gjort en full success eller bommet. Hadde rekkefølgen blitt endret på så måtte vi ha satt
+# inn mange flere sjekker for å få de samme utfallene; og da hadde vi repetert veldig mye kode.
 
 # Jeg tror at ekte nettsider skriver "Feil brukernavn eller passord" for å hindre folk i fra å gjette
 # seg inn på kontoer som ikke er deres med hint om at du er på ritkig retning med passord eller
