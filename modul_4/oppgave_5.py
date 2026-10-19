@@ -24,8 +24,8 @@ else:
 
 # Feil #4 og #5 var at 'alder == 18' sjekket om 'alder' verdien var lik tallet '18'. Siden
 # brukeren måtte skrive inn alderen selv i en 'input()' kall, var da både 'input()' kallet,
-# og 'alder == 18' sjekken like feil, når ingen av dem hadde mulighet til å få eller gi
-# daten som var nødvendig i koden.
+# som ikke omgjorde til 'int()', og 'alder == 18' sjekken like feil, når ingen av dem hadde
+# mulighet til å få eller gi dataen som var nødvendig i koden.
 
 # Sist så vil jeg kanskje si at det er en feil å sjekke 'alder == 18', men det er ikke sikkert
 # dette var en sjekk om de var over '18', eller om de bare var '18' presist.
